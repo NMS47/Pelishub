@@ -1,0 +1,30 @@
+.main{
+    background-color:beige;
+    font-family: Verdana; 
+    
+}
+
+.botones{
+    padding: 20px;
+    margin: 15px;
+}
+
+.usuario{
+    margin-right: 25px;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: solid;
+    border-radius: 10px;
+
+}
+
+.cancelar{
+    margin-left: 55px;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: solid;
+    border-radius: 10px;
+
+}
