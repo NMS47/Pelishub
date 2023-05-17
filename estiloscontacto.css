@@ -1,0 +1,101 @@
+body {
+    background-color: black;
+    color: azure;
+}
+
+main {
+    margin: auto;
+    max-width: 90%;
+}
+
+textarea {
+    width: 99%;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+form div input{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+form div input:first{
+    margin-right: 0.3rem;
+    margin-left: 0.3rem;;
+}
+
+.fa {
+    padding: 1rem;
+    font-size: 2rem !important;
+    width: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background-color: black;
+    color: azure;
+  }
+
+.fa:hover {
+    opacity: 0.7;
+  }
+
+button {
+    border-radius: 6px;
+    background-color: blueviolet;
+    border-style: none;
+}
+
+button:hover{
+    background-color: rgb(191, 154, 226);
+}
+
+
+
+@media screen and (max-width: 1400px){
+    h1 {
+        margin: 2rem 0;
+        font-size: 7rem;
+    }
+
+    .contacto {
+        display: flex;
+    }
+
+    .contenedor {
+        margin: 1rem 2rem;
+    }
+    .formulario {
+        padding-left: 15%;
+    }
+}
+
+@media screen and (max-width: 992px){
+    h1 {
+        margin: 1.5rem 0;
+        font-size: 5rem;
+    }
+
+    .contacto {
+        display: flex;
+    }
+
+    .contenedor {
+        margin: 0.8rem 1rem;
+    }
+}
+
+@media screen and (max-width: 768px){
+    h1 {
+        margin: 1rem 0;
+        font-size: 3rem;
+    }
+
+    .contacto {
+        display: block;
+    }
+    .contenedor {
+        margin: 0.5rem 0.8rem;
+    }
+}
