@@ -1,7 +1,24 @@
-footer {
+body {
     background-color: black;
+    color: azure;
+}
+
+footer {
     display: inline;
     justify-content: center;
+    justify-items: center;
+    text-align: center;
+
+}
+
+nav {
+    text-align: right;
+    background-color:rgb(117, 110, 110);
+    color: rgb(29, 28, 28);
+    text-decoration: none; 
+    padding: 3px;
+    border-radius: 5px;
+    margin: 2px;
 }
 
 
@@ -12,7 +29,6 @@ footer {
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
-    background-color: black;
     color: azure;
   }
 
