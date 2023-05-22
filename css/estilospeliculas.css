@@ -27,52 +27,23 @@ header {
     justify-content: center;
 }
 
-
+img {
+    width: 350px;
+    height: 200px;
+    margin: 10px;
+}
 
 .imagen-4{
-    width: 350px;
-    height: 200px;
-    margin: 10px;
-    left: 20px;
-    
-    
+    left: 20px;    
 }
 
-.contenido4 p {
+.contenido p {
     font-size: 13px;
     border: 1px;
     padding: 5px;
     text-align: center;
 }
-
-
 
 .imagen-5{
-    width: 350px;
-    height: 200px;
-    margin: 10px;
     left: 50px;
-}
-
-.contenido5 p {
-    font-size: 13px;
-    border: 1px;
-    padding: 5px;
-    text-align: center;
-}
-
-
-.imagen-6{
-    width: 350px;
-    height: 200px;
-    margin: 10px;
-   
-}
-
-.contenido6 p {
-    font-size: 13px;
-    border: 1px;
-    padding: 5px;
-    text-align: center;
-
 }
