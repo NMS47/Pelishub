@@ -4,15 +4,11 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 1rem;
 }
 
 div p {
     border: 2px  rgba(12, 12, 12, 0.945);/*contenedor general*/
-    padding: 30px; /*es para el espaciado*/
-    margin: 20px; /* acomoda las letras tambien */
-    background-color: rgb(150, 150, 150);
-    
 }
 
 h1 {
@@ -59,52 +55,31 @@ nav {
     justify-content: center;
 }
 
-
-
-.imagen-1{
-    width: 350px;
-    height: 200px;
-    margin: 10px;
-    left: 20px;
-    
-    
+.contenido{
+    background-color: rgb(36, 35, 35);
+    border-radius: 20px;
+    margin: 1rem;
 }
 
-.contenido1 p {
-    font-size: 13px;
+.contenido p {
+    font-size: 1rem;
     border: 1px;
     padding: 5px;
     text-align: center;
 }
 
-
-
-.imagen-2{
+img {
     width: 350px;
     height: 200px;
     margin: 10px;
+}
+
+.imagen-1{
+    left: 20px; 
+}
+
+.imagen-2{
     left: 50px;
 }
 
-.contenido2 p {
-    font-size: 13px;
-    border: 1px;
-    padding: 5px;
-    text-align: center;
-}
 
-
-.imagen-3{
-    width: 350px;
-    height: 200px;
-    margin: 10px;
-   
-}
-
-.contenido3 p {
-    font-size: 13px;
-    border: 1px;
-    padding: 5px;
-    text-align: center;
-
-}
