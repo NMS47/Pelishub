@@ -21,13 +21,10 @@ a {
 
 header {
     background-color: black;
-    color: white;
     margin-bottom: 10px;
 }
 
 .nav {
-    background-color:rgb(117, 110, 110);
-    color: rgb(29, 28, 28);
     text-decoration: none; 
     padding: 3px;
     border-radius: 5px;
@@ -40,16 +37,13 @@ menu {
 
 footer{
     background-color: rgba(0, 0, 0, 0.87);
-    color: aliceblue;
     text-align: center;
     margin-top: 1px;
-   
 }
 
 
 nav {
     text-align: right;
-   
 }
 
 .imagenes {
@@ -61,13 +55,9 @@ nav {
     background-color: rgb(36, 35, 35);
     border-radius: 20px;
     margin: 1rem;
-}
-
-.contenido p {
-    font-size: 1rem;
-    border: 1px;
-    padding: 5px;
     text-align: center;
+    padding: 5px;
+    font-size: 1rem;
 }
 
 img {
@@ -84,4 +74,64 @@ img {
     left: 50px;
 }
 
+
+@media screen and (max-width: 1400px){
+    .imagenes {
+        display: flex;
+        justify-content: center;
+    }
+
+    .contenido {
+        width: 380px;
+    }
+
+    img {
+        width: 350px;
+        height: 200px;
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    body{
+        justify-content: center;
+        text-align: center;
+    }
+    .imagenes {
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+    }
+
+    .contenido {
+        width: 380px;
+
+    }
+
+    img {
+        width: 210px;
+        height: 120px;
+        margin: 10px
+    }
+}
+
+@media screen and (max-width: 768px){
+
+    .imagenes {
+        display: block;
+        justify-content: center;
+        
+    }
+
+    .contenido {
+        width: 360px;
+        margin: .5rem auto; 
+    }
+
+    img {
+        width: 280px;
+        height: 160px;
+        margin: 10px
+    }
+}
 

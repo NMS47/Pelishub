@@ -19,8 +19,16 @@ nav {
     padding: 3px;
     border-radius: 5px;
     margin: 2px;
+    font-size: 1.6rem;
 }
 
+nav a{
+    text-decoration: none;
+    padding: .5rem;
+}
+a {
+    color: rgb(250, 142, 18);
+}
 
 .fa {
     padding: 1rem;

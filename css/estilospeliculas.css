@@ -51,7 +51,7 @@ header {
     }
 
     .contenido {
-        width: 360px;
+        width: 380px;
     }
 
     img {
@@ -89,11 +89,12 @@ header {
     .peliculas {
         display: block;
         justify-content: center;
+        
     }
 
     .contenido {
         width: 360px;
-        margin: auto; 
+        margin: .5rem auto; 
     }
 
     img {
