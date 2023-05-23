@@ -15,7 +15,9 @@ h1 {
     text-align: center;
 }
 
-
+a {
+    color: rgb(250, 142, 18);
+}
 
 header {
     background-color: black;
