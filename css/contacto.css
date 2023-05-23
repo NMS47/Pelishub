@@ -33,13 +33,9 @@ button {
     border-style: none;
 }
 
-
-
 button:hover{
     background-color: rgb(191, 154, 226);
 }
-
-
 
 @media screen and (max-width: 1400px){
     h1 {
@@ -87,4 +83,3 @@ button:hover{
         margin: 0.5rem 0.8rem;
     }
 }
-

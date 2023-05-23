@@ -8,7 +8,6 @@ footer {
     justify-content: center;
     justify-items: center;
     text-align: center;
-
 }
 
 nav {
@@ -44,6 +43,7 @@ a {
     transition: transform 2s;
     transition-timing-function: ease-in;
 }
+
 #fb:hover{
     transform:rotate(360deg);
     /* animation-name: facebook;
